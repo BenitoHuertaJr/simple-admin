@@ -1,0 +1,28 @@
+{
+    "name": "iamx/simple-admin",
+    "description": "A simple bootstrap administration control panel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benito Huerta Jr",
+            "email": "huertajosebenito@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "^7.2"
+    },  
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "iamx\\SimpleAdmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "iamx\\SimpleAdmin\\SimpleAdminServicesProvider"
+            ]
+        }
+    }
+}
