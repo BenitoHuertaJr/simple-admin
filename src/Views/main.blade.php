@@ -119,7 +119,7 @@
                 </footer>
             </div>
         </div>
-        <script src="{{ asset('vendor/iamx/simple-admin/js/jquery-3.5.1.slim.min.js') }}"></script>
+        <script src="{{ asset('vendor/iamx/simple-admin/js/jquery-3.5.1.min.js') }}"></script>
         <script src="{{ asset('vendor/iamx/simple-admin/js/bootstrap.bundle.min.js') }}"></script>
         <script src="{{ asset('vendor/iamx/simple-admin/js/scripts.js') }}"></script>
         @if (config('simpleadmin.scripts') && config('simpleadmin.scripts') != null)
